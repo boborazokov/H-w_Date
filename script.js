@@ -11,9 +11,9 @@ const monthsTest = timeTest / (1000 * 60 * 60 * 24 * 31);
 const yearsTest = timeTest / (1000 * 60 * 60 * 24 * 365);
 const heartSpeedMinute = 70;
 
-console.log(`Passed seconds: ${secondsTest.toFixed(0)}`);
-console.log(`Passed minutes: ${minutesTest.toFixed(0)}`);
-console.log(`Passed hours: ${hoursTest.toFixed(0)}`);
-console.log(`Passed Days: ${daysTest.toFixed(0)}`);
-console.log(`Passed mouth: ${monthsTest.toFixed(0)}`);
-console.log(`Passed years: ${yearsTest.toFixed(0)}`);
+console.log("Passed seconds:"(secondsTest.toFixed(0)));
+console.log("Passed minutes:"(minutesTest.toFixed(0)));
+console.log("Passed hours: "(hoursTest.toFixed(0)));
+console.log("Passed Days: "(daysTest.toFixed(0)));
+console.log("Passed mouth: "(monthsTest.toFixed(0)));
+console.log("Passed years:"(yearsTest.toFixed(0)));
